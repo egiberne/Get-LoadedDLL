@@ -1,8 +1,13 @@
 # Changelog
 
+## 1.0.0 - 2026-04-10
+### Changed
+**BREAKING CHANGE** : Create the script simple
+Correct return by using the property `Status`
+
 ## 0.3.3 - 2026-04-10
 ### Added
-Provide the required version in the code as uncompatible with Windows PowerShell
+Provide the required version in the code as incompatible with Windows PowerShell
 ### Fixed
 Correct the script to retrieve the signature of the DLLs instead of the hash code
 
