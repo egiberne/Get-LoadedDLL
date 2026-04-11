@@ -6,42 +6,56 @@ The Get-LoadedDll is attempt to replicate in PowerShell the LisDlls utility from
 
 ## Requirement
 
-It is support for PowerShell and unsupported for Windows PowerShell.
+|Specification|Description|Version|
+-----------|------------|---------|
+|PowerShell | Supported |7.5.5 Qualified|
+|Windows Powershell|Unsupported|Not Applicable|
 
+>[IMPORTANT]
+>Enable PowerShell Execution
 
-## Parameters
-
-Name | Type | Description
------|------|--------------------
-     |String| Name of the process
-
-## Example
-
+Check execution policy status
 ```powershell
-
-```
-
-```output
-
+Get-ExecutionPolicy
 ```
 
 ## Roadmap
 
-1. One-liner
-    - [x] List all DLLs loaded into all processes. 
-    - [x] List all DLLs into a specific process.
-    - [x] Display full version information for DLLs.
+1. One-liner Script
+    - [x] Without variable
+    - [x] Pipelining command
+    - [x] List DLLs loaded into all processes. 
+    - [x] List DLLs into a specific process.
+    - [x] Display version information for DLLs.
     - [x] Display the status of the signature.
     - [x] Return output in a hash table
 2. Simple Script
+    - [x] With variable
+    - [ ] Without pipelining
 3. Advanced Script 
     - [ ] List the processes that have a particular DLL loaded.
     - [ ] Scan processes for unsigned DLLs.
 4. Simple Function
+    - [ ] Without cmdlet binding
+    - [ ] With splatting
 5. Advanced Function
-6. Script Module
-    - [ ] Implement with .Net API
+    - [ ] With cmdlet binding
+6. Simple Module
+    - [ ] Without .Net API
+7. Advanced Module
+    - [ ] With .Net API
+8. Binary Module
+    - [ ] With Compiled C#
 
 
-### Reference
+## Reference
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
+
+
+## Status
+![Static Badge](https://img.shields.io/badge/status-active-green)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/egiberne/get-listDLLs)
+
+
+Happy Coding!

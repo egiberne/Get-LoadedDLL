@@ -1,5 +1,6 @@
 <#
 .SYNOPSIS
+Get the list of the DLLs for a process
 .DESCRIPTION
 .EXAMPLE
 .PARAMETER Name
@@ -7,7 +8,7 @@
 .OUTPUTS
 .NOTES
 - Author  :EMERICK GIBERNE
-- Version : 1.1.0
+- Version : 1.1.1
 #>
 
 #Requires -version 7.0

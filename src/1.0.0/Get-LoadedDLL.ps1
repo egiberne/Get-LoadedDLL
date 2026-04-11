@@ -2,7 +2,7 @@
 .SYNOPSIS
 Get the list of the DLLs for a process
 .DESCRIPTION
-The GetListDLLs is a tool that reports the Dynamic Link Libraries loaded in processes. Use it to list all DLLs loaded into a specific process. 
+The Get-LoadedDll is a one-line command script that reports the Dynamic Link Libraries loaded in processes. Use it to list all DLLs loaded into a specific process. 
 It can also display full version information for DLLs.
 .PARAMETER Name
 .INPUTS
@@ -13,7 +13,7 @@ System.Object
 https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls
 .NOTES
 Author: EMERICK GIBERNE
-version: 1.0.0
+version: 1.0.1
 #>
 
 #Requires -Version 7.0

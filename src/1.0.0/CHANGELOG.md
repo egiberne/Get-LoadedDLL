@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 - 2026-04-11
+### Changed
+- Provide more details for the roadmap
+- Revisit the description in the roadmap
+- Revisit the description in code
+### Added 
+Create a README.md for the current version less then 1.1.0
+
 ## 1.0.0 - 2026-04-10
 ### Changed
 **BREAKING CHANGE** : Create the script simple
