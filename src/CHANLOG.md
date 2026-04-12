@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.0 - 2026-04-11
+### Fixed
+- Correct the IMPORTANT statement in the README
+### Changed
+- Collect more Dll properties
+### Added
+- Return an `pscustomobject` with properties for every Dll
+- Exclude the executable file with the extension `.exe` 
+
 ## 1.1.1 - 2026-04-11
 ### Changed
 - Provide more details for the roadmap

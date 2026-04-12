@@ -7,12 +7,12 @@ It can also display full version information for DLLs.
 
 ## Requirement
 
-|Specification|Description|Version|
+|Name|Description|Specification|
 -----------|------------|---------|
 |PowerShell | Supported |7.5.5 Qualified|
 |Windows Powershell|Unsupported|Not Applicable|
 
->[IMPORTANT]
+>[!IMPORTANT]
 >Enable PowerShell Execution
 
 Check execution policy status

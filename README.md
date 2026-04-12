@@ -6,12 +6,12 @@ The Get-LoadedDll is attempt to replicate in PowerShell the LisDlls utility from
 
 ## Requirement
 
-|Specification|Description|Version|
+|Name|Description|Specification|
 -----------|------------|---------|
 |PowerShell | Supported |7.5.5 Qualified|
 |Windows Powershell|Unsupported|Not Applicable|
 
->[IMPORTANT]
+>[!IMPORTANT]
 >Enable PowerShell Execution
 
 Check execution policy status
@@ -50,6 +50,7 @@ Get-ExecutionPolicy
 
 ## Reference
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
+![Static Badge](https://img.shields.io/badge/PowerShell-Documentation-blue)
 
 
 ## Status
